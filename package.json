@@ -1,0 +1,31 @@
+{
+  "name": "chat-app-be",
+  "version": "1.0.0",
+  "description": "Chat Application",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "env": "^0.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.10",
+    "nodemon": "^2.0.6",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richatiwary1911/chat-app.git"
+  },
+  "author": "Richa Tiwary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richatiwary1911/chat-app/issues"
+  },
+  "homepage": "https://github.com/richatiwary1911/chat-app#readme"
+}
