@@ -1,9 +1,7 @@
 const mongoose = require('mongoose');
 
 const schema = new mongoose.Schema({
-    _id: {
-        type: mongoose.Schema.Types.ObjectId,
-    },
+    _id: mongoose.Schema.Types.ObjectId,
 
     message: {
         type: String,
